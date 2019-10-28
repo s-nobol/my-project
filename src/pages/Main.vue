@@ -1,7 +1,7 @@
 <template>
 
     <div>
-        <h2>こんにちは</h2>
+        <h2>こんにちはあああああ</h2>
         <h2>ホーム</h2>
         
          <router-link to="/page1">ページ1</router-link>

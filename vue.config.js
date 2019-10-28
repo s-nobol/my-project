@@ -7,7 +7,7 @@ module.exports = {
     
     },
     
-        publicPath: 'my-project',
+        publicPath: '/my-project',
         outputDir: 'docs',
         filenameHashing: false,
         productionSourceMap: false,
