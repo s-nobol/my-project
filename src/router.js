@@ -25,5 +25,7 @@ export default new Router({
           component: page2
         }
     ],
+    
+    base: process.env.BASE_URL,  // これ
     mode: 'history', // ★ 追加
 })
