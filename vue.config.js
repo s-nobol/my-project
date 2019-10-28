@@ -7,8 +7,11 @@ module.exports = {
     
     // },
     
-        publicPath: '/',
-        outputDir: 'docs',
+    publicPath: process.env.NODE_ENV === 'production'
+        ? '/my-project/'
+        : '/'
+        // publicPath: '/',
+        // outputDir: 'docs',
         // filenameHashing: false,
         // productionSourceMap: false,
 }
